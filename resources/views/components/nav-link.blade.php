@@ -1,7 +1,7 @@
 @props(['active'])
 
 @php
-    $classes = Arr::toCssClasses(['block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 | lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0', 'text-white bg-blue-700 | lg:bg-transparent lg:text-blue-700' => $active]);
+    $classes = Arr::toCssClasses(['block py-2 px-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 | lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0', 'text-white bg-blue-700 | lg:bg-transparent lg:text-blue-700' => $active]);
 @endphp
 
 <a {{ $attributes->merge(['class' => $classes]) }}>

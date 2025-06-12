@@ -58,9 +58,3 @@
     font-family: 'Reem Kufi', sans-serif;
 }
 
-/* Adjust Markdown for Arabic */
-html[dir="rtl"] .format ul,
-html[dir="rtl"] .format ol {
-    padding-right: 2em;
-    padding-left: 0;
-}

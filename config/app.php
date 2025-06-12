@@ -107,6 +107,19 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Font Family
+    |--------------------------------------------------------------------------
+    |
+    | Font family for arabic and latin text.
+    | Available fonts included here: resources/css/app.css
+    |
+    */
+
+    'arabic_font_family' => env('ARABIC_FONT_FAMILY', 'Noto Kufi Arabic'),
+    'latin_font_family' => env('LATIN_FONT_FAMILY', 'Inter'),
+
+    /*
+    |--------------------------------------------------------------------------
     | Maintenance Mode Driver
     |--------------------------------------------------------------------------
     |
