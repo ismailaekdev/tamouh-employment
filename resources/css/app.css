@@ -1,15 +1,78 @@
 @import 'tailwindcss';
+@import 'flowbite/src/themes/default';
 
-/* Preline UI */
-@import "../../node_modules/preline/variants.css";
-@source "../../node_modules/preline/dist/*.js";
+@plugin 'flowbite/plugin';
+@plugin 'flowbite-typography';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
 @source '../**/*.blade.php';
 @source '../**/*.js';
+@source '../../node_modules/flowbite';
+
 
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+
+@theme {
+    --color-primary-50:  oklch(0.963 0.091 90);
+    --color-primary-100: oklch(0.933 0.101 90);
+    --color-primary-200: oklch(0.862 0.140 89);
+    --color-primary-300: oklch(0.800 0.174 88);
+    --color-primary-400: oklch(0.750 0.181 85);
+    --color-primary-500: oklch(0.720 0.183 77);
+    --color-primary-600: oklch(0.650 0.169 77);
+    --color-primary-700: oklch(0.540 0.142 77);
+    --color-primary-800: oklch(0.430 0.115 77);
+    --color-primary-900: oklch(0.350 0.095 75);
+    --color-primary-950: oklch(0.200 0.060 70);
+
+    --font-sans: 'Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-body: 'Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'system-ui', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-mono: 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace';
+}
+
+/* Latin Fonts */
+
+.font-inter {
+    font-family: 'Inter', sans-serif;
+}
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+.font-raleway {
+    font-family: 'Raleway', sans-serif;
+}
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+.font-roboto-mono {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+/* Arabic Fonts */
+.font-noto-kufi-arabic {
+    font-family: 'Noto Kufi Arabic', sans-serif;
+}
+.font-cairo {
+    font-family: 'Cairo', sans-serif;
+}
+.font-el-messiri {
+    font-family: 'El Messiri', sans-serif;
+}
+.font-reem-kufi {
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+/* Adjust Markdown for Arabic */
+html[dir="rtl"] .format ul,
+html[dir="rtl"] .format ol {
+    padding-right: 2em;
+    padding-left: 0;
 }

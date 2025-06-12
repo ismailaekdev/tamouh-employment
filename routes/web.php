@@ -1,7 +1,6 @@
 <?php
 
+use App\Http\Controllers\ShowHome;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('front.home');
-});
+Route::get('/', ShowHome::class)->name('front.home');
