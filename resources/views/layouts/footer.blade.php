@@ -1,6 +1,6 @@
 <footer class="p-4 py-8 bg-white md:p-8 lg:p-10">
     <div class="mx-auto max-w-screen-xl text-center">
-        <div class="grid lg:grid-cols-2">
+        <div class="flex flex-col md:flex-row md:justify-between items-center mb-6">
             <a href="{{ route('front.home') }}" class="flex items-center mb-4 text-2xl font-semibold text-gray-900 lg:mb-0">
                 <svg class="mr-2 h-8" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M25.2696 13.126C25.1955 13.6364 24.8589 14.3299 24.4728 14.9328C23.9856 15.6936 23.2125 16.2264 22.3276 16.4114L18.43 17.2265C17.8035 17.3575 17.2355 17.6853 16.8089 18.1621L14.2533 21.0188C13.773 21.5556 13.4373 21.4276 13.4373 20.7075C13.4315 20.7342 12.1689 23.9903 15.5149 25.9202C16.8005 26.6618 18.6511 26.3953 19.9367 25.6538L26.7486 21.7247C29.2961 20.2553 31.0948 17.7695 31.6926 14.892C31.7163 14.7781 31.7345 14.6639 31.7542 14.5498L25.2696 13.126Z" fill="url(#paint0_linear_11430_22515)" />
@@ -53,13 +53,13 @@
                 </svg>
                 Flowbite
             </a>
-            <ul class="flex flex-wrap justify-end items-center mb-4 text-sm text-gray-500 lg:mb-0">
+            <ul class="flex flex-wrap justify-end items-center mb-4 text-sm text-gray-500 lg:mb-0 rtl:text-right gap-4">
                 {{-- TODO: add routes --}}
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">{{ __('About') }}</a>
+                    <a href="{{ route('front.home') }}" class="hover:underline">{{ __('Home') }}</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6">{{ __('Services') }}</a>
+                    <a href="#" class="hover:underline">{{ __('Services') }}</a>
                 </li>
                 <li>
                     <a href="{{ route('front.contact') }}" class="hover:underline">{{ __('Contact') }}</a>
@@ -88,7 +88,7 @@
                     </svg>
 
                 </a>
-                <a href="#" class="text-gray-500 hover:text-gray-900">
+                <a href="https://www.linkedin.com/company/tamouh/" target="_blank" class="text-gray-500 hover:text-gray-900">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                         <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd" />
                         <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />

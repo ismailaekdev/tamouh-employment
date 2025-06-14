@@ -6,14 +6,14 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         {{-- Title Tag --}}
-        <title>@yield('title', __('Communication Agency in Marrakech - Web Solutions Experts')) | {{ config('app.name') }}</title>
+        <title>@yield('title', __('Manpower Supply & Recruitment UAE')) | {{ config('app.name') }}</title>
         {{-- Meta Description --}}
-        <meta name="description" content="@yield('description', __('Leading communication agency in Marrakech, offering expert web solutions to help your business grow online. Discover our services today!'))">
+        <meta name="description" content="@yield('description', __('Tamouh Employment is a trusted manpower provider in Abu Dhabi and across the UAE, offering skilled workforce solutions for civil, mechanical, and industrial sectors. Hire qualified staff or find the right job today.'))">
         {{-- Meta Robots: --}}
         <meta name="robots" content="index, follow">
         {{-- Open Graph Tags (for social media optimization) --}}
-        <meta property="og:title" content="@yield('og_title', __('Communication Agency in Marrakech - Web Solutions Experts')) | {{ config('app.name') }}">
-        <meta property="og:description" content="@yield('og_description', __('Leading communication agency in Marrakech, offering expert web solutions to help your business grow online. Discover our services today!'))">
+        <meta property="og:title" content="@yield('og_title', __('Manpower Supply & Recruitment UAE')) | {{ config('app.name') }}">
+        <meta property="og:description" content="@yield('og_description', __('Tamouh Employment is a trusted manpower provider in Abu Dhabi and across the UAE, offering skilled workforce solutions for civil, mechanical, and industrial sectors. Hire qualified staff or find the right job today.'))">
         <meta property="og:image" content="@yield('og_image', url('assets/logos/alter-web-logo.svg'))">
         <meta property="og:image:alt" content="{{ config('app.name') }}">
         <meta property="og:url" content="{{ url()->current() }}">
@@ -21,7 +21,7 @@
         <meta property="og:locale" content="{{ app()->getLocale() }}">
 
         {{-- Favicon --}}
-        <link rel="icon" type="image/svg" href="{{ asset('assets/favicons/alter-web-favicon.svg') }}">
+        <link rel="icon" type="image/svg" href="{{ asset('images/favicon.svg') }}">
 
         {{-- Google fonts --}}
         <link rel="preconnect" href="https://fonts.googleapis.com">

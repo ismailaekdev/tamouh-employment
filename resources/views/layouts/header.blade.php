@@ -56,11 +56,6 @@
                     </x-nav-link>
                 </li>
                 <li>
-                    <x-nav-link href="#" :active="false">
-                        {{ __('About') }}
-                    </x-nav-link>
-                </li>
-                <li>
                     <x-nav-link href="{{ route('front.contact') }}" :active="request()->routeIs('front.contact')">
                         {{ __('Contact') }}
                     </x-nav-link>
