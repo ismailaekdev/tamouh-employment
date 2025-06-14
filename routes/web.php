@@ -12,4 +12,5 @@ Route::get('/', function () {
 Route::prefix('{locale}')->group(function () {
     Route::get('/', ShowHome::class)->name('front.home');
     Route::get('/contact', ShowContact::class)->name('front.contact');
+    Route::view('/services', 'front.services')->name('front.Services');
 });
