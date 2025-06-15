@@ -1,7 +1,7 @@
 @extends('layouts.front')
 @section('title', __('Services'))
 @section('content')
-<div class="relative overflow-hidden g-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply rtl-bg-flip" style="background-image: url({{ asset('images/hero-home.webp') }});">
+<div class="relative overflow-hidden g-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply rtl-bg-flip" style="background-image: url({{ asset('images/professional-manpower-supply-services-infrastructure-construction.jpg') }});">
     <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col items-center justify-between py-8  lg:py-16">
         <div class="max-w-2xl text-center">
@@ -9,363 +9,182 @@
             {{ __('Our services') }}
             </h1>
             <p class="mb-8 text-base md:text-xl leading-relaxed text-gray-300">
-            {{ __('At Tamouh Employment LLC, we provide a full suite of manpower and HR services designed to meet the needs of various industries across the UAE and internationally. Whether you\'re seeking temporary staffing or long-term recruitment partnerships, we deliver efficient, flexible, and dependable workforce solutions.') }}
+            {{ __('Tamouh Employment LLC delivers flexible, reliable manpower and HR solutions for businesses across the UAE and beyond.') }}
             </p>
         </div>
         </div>
     </div>
     </div>
+    <section class="bg-white">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-16">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('Smart Workforce Solutions') }}</h2>
+          <p class="font-light text-gray-500 sm:text-xl">{{ __('Trusted manpower and HR services across the UAE for every industry.') }}</p>
+      </div>
+      <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 xl:gap-8 md:space-y-0">
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('Manpower Supply') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Get fully sponsored skilled workers across sectors, ready to join your team fast.') }}</p>
+          </div>
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('Recruitment Services') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Hire top local and international talent with streamlined sourcing and placement.') }}</p>
+          </div>
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"></path><path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('Project Staffing') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Easily scale up for any project with flexible, contract-based workforce solutions.') }}</p>
+          </div>
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"></path><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z" clip-rule="evenodd"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('Visa Processing') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Ensure fast, compliant visa handling for smooth onboarding and legal peace of mind.') }}</p>
+          </div>
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('Payroll Management') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Simplify salary payments with secure, accurate, and fully compliant processing.') }}</p>
+          </div>
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('Staff Accommodation') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Provide your workers with clean, managed housing, meals, and transport included.') }}</p>
+          </div>
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('HR Outsourcing') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Let us manage your HR tasks so you can focus on growing your business.') }}</p>
+          </div>
+          <div class="p-6 bg-white rounded shadow">
+              <div class="flex justify-center items-center mb-4 w-10 h-10 rounded bg-primary-100 lg:h-12 lg:w-12">
+                  <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd"></path></svg>
+              </div>
+              <h3 class="mb-2 text-xl font-bold">{{ __('Executive Search') }}</h3>
+              <p class="font-light text-gray-500">{{ __('Find qualified leaders and specialists who align with your company goals.') }}</p>
+          </div>
+      </div>
+  </div>
+</section>
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
-      <div class="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
-    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="56" height="56" rx="10" fill="white"/>
-      <path d="M20.2819 26.7478C20.1304 26.5495 19.9068 26.4194 19.6599 26.386C19.4131 26.3527 19.1631 26.4188 18.9647 26.5698C18.848 26.6622 18.7538 26.78 18.6894 26.9144L10.6019 43.1439C10.4874 43.3739 10.4686 43.6401 10.5496 43.884C10.6307 44.1279 10.805 44.3295 11.0342 44.4446C11.1681 44.5126 11.3163 44.5478 11.4664 44.5473H22.7343C22.9148 44.5519 23.0927 44.5037 23.2462 44.4084C23.3998 44.3132 23.5223 44.1751 23.5988 44.011C26.0307 38.9724 24.5566 31.3118 20.2819 26.7478Z" fill="url(#paint0_linear_2204_541)"/>
-      <path d="M28.2171 11.9791C26.201 15.0912 25.026 18.6755 24.8074 22.3805C24.5889 26.0854 25.3342 29.7837 26.9704 33.1126L32.403 44.0113C32.4833 44.1724 32.6067 44.3079 32.7593 44.4026C32.912 44.4973 33.088 44.5475 33.2675 44.5476H44.5331C44.6602 44.5479 44.7861 44.523 44.9035 44.4743C45.0209 44.4257 45.1276 44.3543 45.2175 44.2642C45.3073 44.1741 45.3785 44.067 45.427 43.9492C45.4755 43.8314 45.5003 43.7052 45.5 43.5777C45.5001 43.4274 45.4659 43.2791 45.3999 43.1441L29.8619 11.9746C29.7881 11.8184 29.6717 11.6864 29.5261 11.594C29.3805 11.5016 29.2118 11.4525 29.0395 11.4525C28.8672 11.4525 28.6984 11.5016 28.5529 11.594C28.4073 11.6864 28.2908 11.8184 28.2171 11.9746V11.9791Z" fill="#2684FF"/>
-      <defs>
-      <linearGradient id="paint0_linear_2204_541" x1="24.734" y1="29.2284" x2="16.1543" y2="44.0429" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0052CC"/>
-      <stop offset="0.92" stop-color="#2684FF"/>
-      </linearGradient>
-      </defs>
-    </svg>
-      </div>
-      <div class="p-4 md:p-6">
-    <span class="block mb-1 text-xs font-semibold uppercase text-blue-600">
-      Atlassian API
-    </span>
-    <h3 class="text-xl font-semibold text-gray-800">
-      Atlassian
-    </h3>
-    <p class="mt-3 text-gray-500">
-      A software that develops products for software developers and developments.
-    </p>
-      </div>
-      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View sample
-    </a>
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View API
-    </a>
-      </div>
+  <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+    <div>
+      <img class="rounded-xl" src="{{ asset('images/civil-manpower-supply-onshore-offshore.jpg') }}" alt="Features Image">
     </div>
-    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
-      <div class="h-52 flex flex-col justify-center items-center bg-rose-500 rounded-t-xl">
-    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="56" height="56" rx="10" fill="white"/>
-      <g clip-path="url(#clip0_2204_541)">
-      <path d="M37.0409 28.8697C33.1968 28.8697 30.0811 31.9854 30.0811 35.8288C30.0811 39.6726 33.1968 42.789 37.0409 42.789C40.8843 42.789 44 39.6726 44 35.8288C44 31.9854 40.8843 28.8697 37.0409 28.8697ZM18.9594 28.8701C15.116 28.8704 12 31.9854 12 35.8292C12 39.6726 15.116 42.7886 18.9594 42.7886C22.8032 42.7886 25.9192 39.6726 25.9192 35.8292C25.9192 31.9854 22.8032 28.8701 18.9591 28.8701H18.9594ZM34.9595 20.1704C34.9595 24.0138 31.8438 27.1305 28.0004 27.1305C24.1563 27.1305 21.0406 24.0138 21.0406 20.1704C21.0406 16.3269 24.1563 13.2109 28.0003 13.2109C31.8438 13.2109 34.9591 16.3269 34.9591 20.1704H34.9595Z" fill="url(#paint0_radial_2204_541)"/>
-      </g>
-      <defs>
-      <radialGradient id="paint0_radial_2204_541" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28.0043 29.3944) scale(21.216 19.6102)">
-      <stop offset="0%" stop-color="#FFB900"/>
-      <stop offset="0.6" stop-color="#F95D8F"/>
-      <stop offset="0.999" stop-color="#F95353"/>
-      </radialGradient>
-      <clipPath id="clip0_2204_541">
-      <rect width="32" height="29.5808" fill="white" transform="translate(12 13.2096)"/>
-      </clipPath>
-      </defs>
-    </svg>
-      </div>
-      <div class="p-4 md:p-6">
-    <span class="block mb-1 text-xs font-semibold uppercase text-rose-600">
-      Asana API
-    </span>
-    <h3 class="text-xl font-semibold text-gray-800">
-      Asana
-    </h3>
-    <p class="mt-3 text-gray-500">
-      Track tasks and projects, use agile boards, measure progress.
-    </p>
-      </div>
-      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View sample
-    </a>
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View API
-    </a>
-      </div>
-    </div>
-    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
-      <div class="h-52 flex flex-col justify-center items-center bg-amber-500 rounded-t-xl">
-    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="56" height="56" rx="10" fill="white"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7326 11.968C21.9637 11.9693 20.5321 13.4049 20.5334 15.1738C20.5321 16.9427 21.965 18.3782 23.7339 18.3795H26.9345V15.1751C26.9358 13.4062 25.5029 11.9706 23.7326 11.968C23.7339 11.968 23.7339 11.968 23.7326 11.968M23.7326 20.5184H15.2005C13.4316 20.5197 11.9987 21.9553 12 23.7242C11.9974 25.4931 13.4303 26.9286 15.1992 26.9312H23.7326C25.5016 26.9299 26.9345 25.4944 26.9332 23.7255C26.9345 21.9553 25.5016 20.5197 23.7326 20.5184V20.5184Z" fill="#36C5F0"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M44.0001 23.7242C44.0014 21.9553 42.5684 20.5197 40.7995 20.5184C39.0306 20.5197 37.5977 21.9553 37.599 23.7242V26.9312H40.7995C42.5684 26.9299 44.0014 25.4944 44.0001 23.7242ZM35.4666 23.7242V15.1738C35.4679 13.4062 34.0363 11.9706 32.2674 11.968C30.4985 11.9693 29.0656 13.4049 29.0669 15.1738V23.7242C29.0643 25.4931 30.4972 26.9286 32.2661 26.9312C34.035 26.9299 35.4679 25.4944 35.4666 23.7242Z" fill="#2EB67D"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.2661 44.0322C34.035 44.0309 35.4679 42.5953 35.4666 40.8264C35.4679 39.0575 34.035 37.622 32.2661 37.6207H29.0656V40.8264C29.0642 42.594 30.4972 44.0295 32.2661 44.0322ZM32.2661 35.4804H40.7995C42.5684 35.4791 44.0013 34.0436 44 32.2747C44.0026 30.5058 42.5697 29.0702 40.8008 29.0676H32.2674C30.4985 29.0689 29.0656 30.5045 29.0669 32.2734C29.0656 34.0436 30.4972 35.4791 32.2661 35.4804V35.4804Z" fill="#ECB22E"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 32.2746C11.9987 34.0435 13.4316 35.479 15.2005 35.4804C16.9694 35.479 18.4024 34.0435 18.401 32.2746V29.0688H15.2005C13.4316 29.0702 11.9987 30.5057 12 32.2746ZM20.5334 32.2746V40.825C20.5308 42.5939 21.9637 44.0295 23.7326 44.0321C25.5016 44.0308 26.9345 42.5952 26.9332 40.8263V32.2772C26.9358 30.5083 25.5029 29.0728 23.7339 29.0702C21.9637 29.0702 20.5321 30.5057 20.5334 32.2746C20.5334 32.2759 20.5334 32.2746 20.5334 32.2746Z" fill="#E01E5A"/>
-    </svg>
-      </div>
-      <div class="p-4 md:p-6">
-    <span class="block mb-1 text-xs font-semibold uppercase text-amber-500">
-      Slack API
-    </span>
-    <h3 class="text-xl font-semibold text-gray-800">
-      Slack
-    </h3>
-    <p class="mt-3 text-gray-500">
-      Email collaboration and email service desk made easy.
-    </p>
-      </div>
-      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View sample
-    </a>
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View API
-    </a>
+    <div class="mt-5 sm:mt-10 lg:mt-0">
+      <div class="space-y-6 sm:space-y-8">
+        <div class="space-y-2 md:space-y-4">
+          <h2 class="font-bold text-3xl lg:text-4xl text-gray-800">
+           {{ __('Civil Manpower Supply – Onshore / Offshore') }}
+          </h2>
+          <p class="text-gray-500">
+           {{ __('We deliver highly skilled civil workers, engineers, supervisors, foremen, and craftsmen, ready for both short- and long-term infrastructure and construction projects.') }}
+          </p>
+        </div>
+        <ul class="space-y-2 sm:space-y-4">
+          <li class="flex gap-x-3">
+            <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            <div class="grow">
+              <span class="text-sm sm:text-base text-gray-500">
+            {{ __('Civil Engineers') }}
+              </span>
+            </div>
+          </li>
+
+          <li class="flex gap-x-3">
+            <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            <div class="grow">
+              <span class="text-sm sm:text-base text-gray-500">
+                {{ __('Masonry, Carpentry, Steel Fixers') }}
+              </span>
+            </div>
+          </li>
+
+          <li class="flex gap-x-3">
+            <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            <div class="grow">
+              <span class="text-sm sm:text-base text-gray-500">
+                {{ __('Supervisors, Foremen, Helpers') }}
+              </span>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-  <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
-      <div class="h-52 flex flex-col justify-center items-center bg-blue-600 rounded-t-xl">
-    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="56" height="56" rx="10" fill="white"/>
-      <path d="M20.2819 26.7478C20.1304 26.5495 19.9068 26.4194 19.6599 26.386C19.4131 26.3527 19.1631 26.4188 18.9647 26.5698C18.848 26.6622 18.7538 26.78 18.6894 26.9144L10.6019 43.1439C10.4874 43.3739 10.4686 43.6401 10.5496 43.884C10.6307 44.1279 10.805 44.3295 11.0342 44.4446C11.1681 44.5126 11.3163 44.5478 11.4664 44.5473H22.7343C22.9148 44.5519 23.0927 44.5037 23.2462 44.4084C23.3998 44.3132 23.5223 44.1751 23.5988 44.011C26.0307 38.9724 24.5566 31.3118 20.2819 26.7478Z" fill="url(#paint0_linear_2204_541)"/>
-      <path d="M28.2171 11.9791C26.201 15.0912 25.026 18.6755 24.8074 22.3805C24.5889 26.0854 25.3342 29.7837 26.9704 33.1126L32.403 44.0113C32.4833 44.1724 32.6067 44.3079 32.7593 44.4026C32.912 44.4973 33.088 44.5475 33.2675 44.5476H44.5331C44.6602 44.5479 44.7861 44.523 44.9035 44.4743C45.0209 44.4257 45.1276 44.3543 45.2175 44.2642C45.3073 44.1741 45.3785 44.067 45.427 43.9492C45.4755 43.8314 45.5003 43.7052 45.5 43.5777C45.5001 43.4274 45.4659 43.2791 45.3999 43.1441L29.8619 11.9746C29.7881 11.8184 29.6717 11.6864 29.5261 11.594C29.3805 11.5016 29.2118 11.4525 29.0395 11.4525C28.8672 11.4525 28.6984 11.5016 28.5529 11.594C28.4073 11.6864 28.2908 11.8184 28.2171 11.9746V11.9791Z" fill="#2684FF"/>
-      <defs>
-      <linearGradient id="paint0_linear_2204_541" x1="24.734" y1="29.2284" x2="16.1543" y2="44.0429" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0052CC"/>
-      <stop offset="0.92" stop-color="#2684FF"/>
-      </linearGradient>
-      </defs>
-    </svg>
-      </div>
-      <div class="p-4 md:p-6">
-    <span class="block mb-1 text-xs font-semibold uppercase text-blue-600">
-      Atlassian API
-    </span>
-    <h3 class="text-xl font-semibold text-gray-800">
-      Atlassian
-    </h3>
-    <p class="mt-3 text-gray-500">
-      A software that develops products for software developers and developments.
-    </p>
-      </div>
-      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View sample
-    </a>
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View API
-    </a>
-      </div>
-    </div>
-    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
-      <div class="h-52 flex flex-col justify-center items-center bg-rose-500 rounded-t-xl">
-    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="56" height="56" rx="10" fill="white"/>
-      <g clip-path="url(#clip0_2204_541)">
-      <path d="M37.0409 28.8697C33.1968 28.8697 30.0811 31.9854 30.0811 35.8288C30.0811 39.6726 33.1968 42.789 37.0409 42.789C40.8843 42.789 44 39.6726 44 35.8288C44 31.9854 40.8843 28.8697 37.0409 28.8697ZM18.9594 28.8701C15.116 28.8704 12 31.9854 12 35.8292C12 39.6726 15.116 42.7886 18.9594 42.7886C22.8032 42.7886 25.9192 39.6726 25.9192 35.8292C25.9192 31.9854 22.8032 28.8701 18.9591 28.8701H18.9594ZM34.9595 20.1704C34.9595 24.0138 31.8438 27.1305 28.0004 27.1305C24.1563 27.1305 21.0406 24.0138 21.0406 20.1704C21.0406 16.3269 24.1563 13.2109 28.0003 13.2109C31.8438 13.2109 34.9591 16.3269 34.9591 20.1704H34.9595Z" fill="url(#paint0_radial_2204_541)"/>
-      </g>
-      <defs>
-      <radialGradient id="paint0_radial_2204_541" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(28.0043 29.3944) scale(21.216 19.6102)">
-      <stop offset="0%" stop-color="#FFB900"/>
-      <stop offset="0.6" stop-color="#F95D8F"/>
-      <stop offset="0.999" stop-color="#F95353"/>
-      </radialGradient>
-      <clipPath id="clip0_2204_541">
-      <rect width="32" height="29.5808" fill="white" transform="translate(12 13.2096)"/>
-      </clipPath>
-      </defs>
-    </svg>
-      </div>
-      <div class="p-4 md:p-6">
-    <span class="block mb-1 text-xs font-semibold uppercase text-rose-600">
-      Asana API
-    </span>
-    <h3 class="text-xl font-semibold text-gray-800">
-      Asana
-    </h3>
-    <p class="mt-3 text-gray-500">
-      Track tasks and projects, use agile boards, measure progress.
-    </p>
-      </div>
-      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View sample
-    </a>
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View API
-    </a>
+  <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
+    <div class="mt-5 sm:mt-10 lg:mt-0 md:order-1">
+      <div class="space-y-6 sm:space-y-8">
+        <div class="space-y-2 md:space-y-4">
+          <h2 class="font-bold text-3xl lg:text-4xl text-gray-800">
+            {{ __('Civil Manpower Supply – Onshore / Offshore') }}
+          </h2>
+          <p class="text-gray-500">
+            {{ __('Our mechanical teams bring deep industry knowledge to every job, from pipelines and fabrication to welding and electrical installation.') }}
+          </p>
+        </div>
+        <ul class="space-y-2 sm:space-y-4">
+          <li class="flex gap-x-3">
+            <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            <div class="grow">
+              <span class="text-sm sm:text-base text-gray-500">
+                {{ __('Mechanical Engineers & Foremen') }}
+              </span>
+            </div>
+          </li>
+          <li class="flex gap-x-3">
+            <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            <div class="grow">
+              <span class="text-sm sm:text-base text-gray-500">
+                {{ __('Pipe Fitters, Fabricators, Multi-Welders') }}
+              </span>
+            </div>
+          </li>
+          <li class="flex gap-x-3">
+            <span class="mt-0.5 size-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600">
+              <svg class="shrink-0 size-3.5" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+            </span>
+            <div class="grow">
+              <span class="text-sm sm:text-base text-gray-500">
+                {{ __('Electricians, Fire Watchers, Helpers') }}
+              </span>
+            </div>
+          </li>
+        </ul>
       </div>
     </div>
-    <div class="group flex flex-col h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
-      <div class="h-52 flex flex-col justify-center items-center bg-amber-500 rounded-t-xl">
-    <svg class="size-28" width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="56" height="56" rx="10" fill="white"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7326 11.968C21.9637 11.9693 20.5321 13.4049 20.5334 15.1738C20.5321 16.9427 21.965 18.3782 23.7339 18.3795H26.9345V15.1751C26.9358 13.4062 25.5029 11.9706 23.7326 11.968C23.7339 11.968 23.7339 11.968 23.7326 11.968M23.7326 20.5184H15.2005C13.4316 20.5197 11.9987 21.9553 12 23.7242C11.9974 25.4931 13.4303 26.9286 15.1992 26.9312H23.7326C25.5016 26.9299 26.9345 25.4944 26.9332 23.7255C26.9345 21.9553 25.5016 20.5197 23.7326 20.5184V20.5184Z" fill="#36C5F0"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M44.0001 23.7242C44.0014 21.9553 42.5684 20.5197 40.7995 20.5184C39.0306 20.5197 37.5977 21.9553 37.599 23.7242V26.9312H40.7995C42.5684 26.9299 44.0014 25.4944 44.0001 23.7242ZM35.4666 23.7242V15.1738C35.4679 13.4062 34.0363 11.9706 32.2674 11.968C30.4985 11.9693 29.0656 13.4049 29.0669 15.1738V23.7242C29.0643 25.4931 30.4972 26.9286 32.2661 26.9312C34.035 26.9299 35.4679 25.4944 35.4666 23.7242Z" fill="#2EB67D"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M32.2661 44.0322C34.035 44.0309 35.4679 42.5953 35.4666 40.8264C35.4679 39.0575 34.035 37.622 32.2661 37.6207H29.0656V40.8264C29.0642 42.594 30.4972 44.0295 32.2661 44.0322ZM32.2661 35.4804H40.7995C42.5684 35.4791 44.0013 34.0436 44 32.2747C44.0026 30.5058 42.5697 29.0702 40.8008 29.0676H32.2674C30.4985 29.0689 29.0656 30.5045 29.0669 32.2734C29.0656 34.0436 30.4972 35.4791 32.2661 35.4804V35.4804Z" fill="#ECB22E"/>
-      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 32.2746C11.9987 34.0435 13.4316 35.479 15.2005 35.4804C16.9694 35.479 18.4024 34.0435 18.401 32.2746V29.0688H15.2005C13.4316 29.0702 11.9987 30.5057 12 32.2746ZM20.5334 32.2746V40.825C20.5308 42.5939 21.9637 44.0295 23.7326 44.0321C25.5016 44.0308 26.9345 42.5952 26.9332 40.8263V32.2772C26.9358 30.5083 25.5029 29.0728 23.7339 29.0702C21.9637 29.0702 20.5321 30.5057 20.5334 32.2746C20.5334 32.2759 20.5334 32.2746 20.5334 32.2746Z" fill="#E01E5A"/>
-    </svg>
-      </div>
-      <div class="p-4 md:p-6">
-    <span class="block mb-1 text-xs font-semibold uppercase text-amber-500">
-      Slack API
-    </span>
-    <h3 class="text-xl font-semibold text-gray-800">
-      Slack
-    </h3>
-    <p class="mt-3 text-gray-500">
-      Email collaboration and email service desk made easy.
-    </p>
-      </div>
-      <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-es-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View sample
-    </a>
-    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="#">
-      View API
-    </a>
-      </div>
+    <div class="md:order-2 mt-4 md:mt-auto">
+      <img class="rounded-xl" src="{{ asset('images/mechanical-electricians-firewatchers-helpers.jpg') }}" alt="Features Image">
     </div>
-  </div>
 </div>
-<div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-        <h2 class="text-2xl font-bold md:text-4xl md:leading-tight">{{ __('All-in-One UAE Government Services') }}</h2>
-        <p class="mt-1 text-gray-600">
-        {{ __('Effortless UAE government services, from visa processing to business licensing, all in one place.') }}
-        </p>
-    </div>
-    <div class="max-w-4xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-6 lg:gap-12">
-        <div class="space-y-6 lg:space-y-10">
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/pro.png') }}" alt="{{ __('PRO Services') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('PRO Services') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('We offer professional public relations officer (PRO) services to ensure seamless and hassle-free government transactions for individuals and businesses.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/certificate-attestation.png') }}" alt="{{ __('Certificate Attestation') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Certificate Attestation') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('We provide attestation services for personal, educational, and commercial documents, making them valid for official and legal purposes.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/emirates-id.png') }}" alt="{{ __('Typing of Emirates ID') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Typing of Emirates ID') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Expert assistance with the application and renewal process of Emirates ID to ensure smooth and efficient processing.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/insurance.png') }}" alt="{{ __('Insurance for Families and Companies') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Insurance for Families and Companies') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Comprehensive insurance solutions tailored to protect both families and businesses, ensuring peace of mind.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/warranty-card.png') }}" alt="{{ __('Issue Warranty Card') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Issue Warranty Card') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Quick and convenient issuance of warranty cards, ensuring protection and coverage for various products and services.') }}
-                </p>
-            </div>
-            </div>
-        </div>
-        <div class="space-y-6 lg:space-y-10">
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/family.png') }}" alt="{{ __('Processing of Family Visa') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Processing of Family Visa') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Expert assistance in obtaining and renewing family visas, making the process smooth and stress-free.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/tourist.png') }}" alt="{{ __('Issue a Tourist Visa') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Issue a Tourist Visa') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Fast and reliable issuance of UAE tourist visas, ensuring a smooth experience for travelers visiting the country.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/commercial.png') }}" alt="{{ __('Issuing a Commercial License') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Issuing a Commercial License') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Complete support for business licensing, ensuring a smooth and legally compliant company formation process.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/translation.png') }}" alt="{{ __('Normal & Legal Translation') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Normal & Legal Translation') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Accurate and certified translation services for both legal and general documents, ensuring clarity and compliance.') }}
-                </p>
-            </div>
-            </div>
-            <div class="flex gap-x-5 sm:gap-x-8">
-            <img class="shrink-0 mt-2 size-12" src="{{ asset('images/govt/notary.png') }}" alt="{{ __('Notary Public Agenc)') }}">
-            <div class="grow">
-                <h3 class="text-base sm:text-lg font-semibold text-primary-700">
-                {{ __('Notary Public Agency') }}
-                </h3>
-                <p class="mt-1 text-gray-600">
-                {{ __('Reliable notary public services for document verification, authentication, and legal formalities.') }}
-                </p>
-            </div>
-            </div>
-        </div>
-        </div>
-    </div>
-    </div>
-<section class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-    <div class="max-w-2xl mx-auto text-center mb-6">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('Our Success Partners') }}</h2>
-        <p class="text-gray-500 sm:text-xl">{{ __('Trusted by leading companies across the UAE for reliable and efficient manpower solutions.') }}</p>
-    </div>
-    <div class="grid grid-cols-3 md:grid-cols-6 gap-x-6">
-        <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/specoiii.png') }}" alt="specoiii logo" />
-        <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/nbhi.png') }}" alt="nbhi logo" />
-        <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/ccc.png') }}" alt="ccc logo" />
-        <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/nurol.png') }}" alt="Nurol LLC logo" />
-        <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/raq.png') }}" alt="RAQ LLC logo" />
-    </div>
-    </section>
+</div>
+
+
 @endsection
