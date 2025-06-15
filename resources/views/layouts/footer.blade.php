@@ -10,7 +10,7 @@
                     <a href="{{ route('front.home') }}" class="hover:underline">{{ __('Home') }}</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">{{ __('Services') }}</a>
+                    <a href="{{ route('front.services') }}" class="hover:underline">{{ __('Services') }}</a>
                 </li>
                 <li>
                     <a href="{{ route('front.contact') }}" class="hover:underline">{{ __('Contact') }}</a>
