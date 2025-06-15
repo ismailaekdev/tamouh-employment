@@ -49,7 +49,7 @@
                         {{ __('Home') }}
                     </x-nav-link>
                 </li>
-               <li>
+                <li>
                     <x-nav-link href="{{ route('front.services') }}" :active="request()->routeIs('front.services')">
                         {{ __('Services') }}
                     </x-nav-link>

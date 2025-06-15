@@ -1,7 +1,7 @@
 @extends('layouts.front')
 @section('title', __('Services'))
 @section('content')
-<div class="relative overflow-hidden g-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply rtl-bg-flip" style="background-image: url({{ asset('images/professional-manpower-supply-services-infrastructure-construction.jpg') }});">
+<div class="relative overflow-hidden g-no-repeat bg-cover bg-center bg-gray-500 bg-blend-multiply rtl-bg-flip" style="background-image: url({{ asset('images/hero-services.jpg') }});">
     <div class="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex flex-col items-center justify-between py-8  lg:py-16">
         <div class="max-w-2xl text-center">

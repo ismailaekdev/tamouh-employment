@@ -1,11 +1,10 @@
-<footer class="p-4 py-8 bg-white md:p-8 lg:p-10">
+<footer class="p-4 pt-8 mb-16 lg:mb-8 bg-white md:p-8 lg:p-10">
     <div class="mx-auto max-w-screen-xl text-center">
         <div class="flex flex-col md:flex-row md:justify-between items-center mb-6">
             <a href="{{ route('front.home') }}" class="flex items-center mb-4 text-2xl font-semibold text-gray-900 lg:mb-0">
                 <img src="{{ asset('images/logo.svg') }}" class="h-8 md:h-10" alt="{{ config('app.name') }}" />
             </a>
             <ul class="flex flex-wrap justify-end items-center mb-4 text-sm text-gray-500 lg:mb-0 rtl:text-right gap-4">
-                {{-- TODO: add routes --}}
                 <li>
                     <a href="{{ route('front.home') }}" class="hover:underline">{{ __('Home') }}</a>
                 </li>
