@@ -40,8 +40,8 @@
                                     {{ __('United Arab Emirates') }}
                                 </p>
                                 <address class="mt-1 text-black not-italic">
-                                    {{ __('103 Chewy cafe building') }}<br>
-                                    {{ __('Airport Road, Abu Dhabi.') }}
+                                    {{ __('Building No 6, 9th Floor, Office 901') }}<br>
+                                    {{ __('Barqa An Nisil St, Al Nahyan, Abu Dhabi') }}
                                 </address>
                             </div>
                         </div>
@@ -65,13 +65,8 @@
                                     {{ __('Email us') }}
                                 </p>
                                 <p>
-                                    <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="mailto:info@tamouhae.com">
-                                        info@tamouhae.com
-                                    </a>
-                                </p>
-                                <p>
                                     <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="mailto:info.tamouh@gmail.com">
-                                        Info.tamouh@gmail.com
+                                        info.tamouh@gmail.com
                                     </a>
                                 </p>
                             </div>
@@ -87,13 +82,8 @@
                                     {{ __('Call us') }}
                                 </p>
                                 <p>
-                                    <a dir="ltr" class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="tel:+97124433622">
-                                        +971 2 4433 622
-                                    </a>
-                                </p>
-                                <p>
-                                    <a dir="ltr" class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="tel:+97124433623">
-                                        +971 2 4433 623
+                                    <a dir="ltr" class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="tel:++97126331559">
+                                        +971 2 6331 559
                                     </a>
                                 </p>
                             </div>
@@ -123,17 +113,14 @@
 @section('bodyScripts')
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        const map = L.map('map').setView([24.4655771, 54.3756658], 15);
+        const map = L.map('map').setView([24.46346782, 54.3859619], 15);
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors'
         }).addTo(map);
 
-        L.marker([24.4655771, 54.3756658]).addTo(map)
+        L.marker([24.46346782, 54.3859619]).addTo(map)
             .bindPopup('Tamouh Employement LLC SPC - Abu Dhabi, UAE')
             .openPopup();
     </script>
-    @if (config('services.turnstile.enabled'))
-        <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" defer></script>
-    @endif
 @endsection
