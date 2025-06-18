@@ -93,7 +93,7 @@
            {{ __('Civil Manpower Supply – Onshore / Offshore') }}
           </h2>
           <p class="text-gray-500">
-           {{ __('We deliver highly skilled civil workers, engineers, supervisors, foremen, and craftsmen, ready for both short- and long-term infrastructure and construction projects.') }}
+           {{ __('We deliver highly skilled civil workers, laborers, supervisors, foremen, and craftsmen, ready for both short- and long-term infrastructure and construction projects.') }}
           </p>
         </div>
         <ul class="space-y-2 sm:space-y-4">
@@ -103,7 +103,7 @@
             </span>
             <div class="grow">
               <span class="text-sm sm:text-base text-gray-500">
-            {{ __('Civil Engineers') }}
+            {{ __('labourers') }}
               </span>
             </div>
           </li>
@@ -153,7 +153,7 @@
             </span>
             <div class="grow">
               <span class="text-sm sm:text-base text-gray-500">
-                {{ __('Mechanical Engineers & Foremen') }}
+                {{ __('Mechanical Workers & Foremen') }}
               </span>
             </div>
           </li>

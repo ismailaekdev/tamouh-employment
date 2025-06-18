@@ -6,7 +6,7 @@
             <div class="flex flex-col items-center justify-between py-8  lg:py-16">
                 <div class="max-w-2xl text-center">
                     <h1 class="mb-6 text-2xl md:text-4xl font-extrabold tracking-tight text-gray-200 sm:text-5xl lg:text-6xl">
-                        {{ __('Empowering UAE Workforces') }}
+                        {{ __('Your Trusted UAE Manpower Partner') }}
                     </h1>
                     <p class="mb-8 text-base md:text-xl leading-relaxed text-gray-300">
                         {{ __('Reliable manpower solutions for civil, mechanical, and industrial sectors, serving both local and international clients.') }}
@@ -39,7 +39,7 @@
                         <path fill-rule="evenodd" d="M12 6a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Zm-1.5 8a4 4 0 0 0-4 4 2 2 0 0 0 2 2h7a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-3Zm6.82-3.096a5.51 5.51 0 0 0-2.797-6.293 3.5 3.5 0 1 1 2.796 6.292ZM19.5 18h.5a2 2 0 0 0 2-2 4 4 0 0 0-4-4h-1.1a5.503 5.503 0 0 1-.471.762A5.998 5.998 0 0 1 19.5 18ZM4 7.5a3.5 3.5 0 0 1 5.477-2.889 5.5 5.5 0 0 0-2.796 6.293A3.501 3.501 0 0 1 4 7.5ZM7.1 12H6a4 4 0 0 0-4 4 2 2 0 0 0 2 2h.5a5.998 5.998 0 0 1 3.071-5.238A5.505 5.505 0 0 1 7.1 12Z" clip-rule="evenodd" />
                     </svg>
                     <h3 class="mb-2 text-xl font-bold">{{ __('Skilled Workforce') }}</h3>
-                    <p class="mb-4 text-gray-500">{{ __('From civil engineers to hospitality staff, ready for deployment.') }}</p>
+                    <p class="mb-4 text-gray-500">{{ __('From labourers to hospitality staff, ready for deployment.') }}</p>
                 </div>
                 <div>
                     <svg class="mx-auto mb-4 w-12 h-12 text-primary-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -65,13 +65,10 @@
             <div class="font-light text-gray-500 sm:text-lg">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('About Us') }}</h2>
                 <p class="mb-4">
-                    {{ __('Tamouh Employment LLC, led by Chief Executive Director Engr. Mohamed El Bahrawy, has grown from humble beginnings into one of the UAE\'s most trusted names in manpower supply and recruitment. With operations in Abu Dhabi, Dubai, and other Emirates, we specialize in connecting businesses with the right talent, at the right time.') }}
-                </p>
-                <p class="mb-4">
-                    {{ __('From engineers to hospitality professionals, we provide skilled manpower across various sectors, tailored to each client\'s specific needs. Our services cover short, medium, and long-term contract staffing, ensuring flexibility and quality in every placement.') }}
+                    {{ __('Tamouh Employment LLC, led by Engr. Mohamed El Bahrawy, has grown from humble beginnings into one of the UAE\'s most trusted names in manpower supply and recruitment. With operations in Abu Dhabi, Dubai, and other Emirates, we specialize in connecting businesses with the right talent, at the right time.') }}
                 </p>
                 <p>
-                    {{ __('For job seekers, we offer diverse opportunities and a quick hiring process. Contact us to stay updated with the latest openings that match your skills.') }}
+                    {{ __('From laborers to hospitality professionals, we provide skilled manpower across various sectors, tailored to each client\'s specific needs. Our services cover short, medium, and long-term contract staffing, ensuring flexibility and quality in every placement.') }}
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-8">
