@@ -194,7 +194,7 @@
             <div class="mt-8 lg:mt-16 mb-8 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                 <div>
                     <div class="inline-flex justify-center items-center mb-6 w-24 h-24 rounded-lg bg-primary-100 ">
-                        <svg class="mx-auto w-16 h-16 text-primary-600 dark:text-primary-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <svg class="mx-auto w-16 h-16 text-primary-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
                             <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
                         </svg>
@@ -223,7 +223,7 @@
                 </div>
             </div>
             <p class="text-center">
-                <a href="" class="inline-flex items-center font-medium text-primary-600 hover:text-primary-700 dark:text-primary-500 dark:hover:text-primary-400">
+                <a href="" class="inline-flex items-center font-medium text-primary-600 hover:text-primary-700">
                     {{ __('Explore our Services') }}
                     <svg class="ml-1 w-5 h-5 rtl:rotate-180" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
@@ -233,7 +233,7 @@
         </div>
     </section>
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white">
         <div class="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
             <div class="mx-auto max-w-screen-sm">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('Chairman\'s Message') }}</h2>
@@ -265,7 +265,7 @@
             <p class="text-gray-500 sm:text-xl">{{ __('Trusted by leading companies across the UAE for reliable and efficient manpower solutions.') }}</p>
         </div>
 
-        <div class="grid grid-cols-3 md:grid-cols-6 gap-x-6">
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-x-6">
             <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/specoiii.png') }}" alt="specoiii logo" />
             <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/nbhi.png') }}" alt="nbhi logo" />
             <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/ccc.png') }}" alt="ccc logo" />
