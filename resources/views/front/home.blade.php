@@ -258,10 +258,50 @@
 
     <section class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="max-w-2xl mx-auto text-center mb-6">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('Certified for Excellence') }}</h2>
+            <p class="text-gray-500 sm:text-xl">{{ __('Tamouh Employment is ISO-certified, reflecting our commitment to quality and reliability in manpower services across the UAE.') }}</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
+                <div class="flex flex-col justify-center items-center overflow-hidden rounded-t-xl">
+                    <img class="w-full h-[300px] md:h-[400px] lg:h-[500px] object-contain" src="{{ asset('images/ISO-9001-2015.jpg') }}" alt="">
+                </div>
+                <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="{{ asset('pdf/ISO-9001-2015.pdf') }}" download>
+                        {{ __('Download') }}
+                    </a>
+                </div>
+            </div>
+
+            <div class="h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
+                <div class="flex flex-col justify-center items-center overflow-hidden rounded-t-xl">
+                    <img class="w-full h-[300px] md:h-[400px] lg:h-[500px] object-contain" src="{{ asset('images/ISO-14001-2015.jpg') }}" alt="">
+                </div>
+                <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="{{ asset('pdf/ISO-14001-2015.pdf') }}" download>
+                        {{ __('Download') }}
+                    </a>
+                </div>
+            </div>
+
+            <div class="h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
+                <div class="flex flex-col justify-center items-center overflow-hidden rounded-t-xl">
+                    <img class="w-full h-[300px] md:h-[400px] lg:h-[500px] object-contain" src="{{ asset('images/ISO-45001-2018.jpg') }}" alt="">
+                </div>
+                <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="{{ asset('pdf/ISO-45001-2018.pdf') }}" download>
+                        {{ __('Download') }}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div class="max-w-2xl mx-auto text-center mb-6">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('Our Success Partners') }}</h2>
             <p class="text-gray-500 sm:text-xl">{{ __('Trusted by leading companies across the UAE for reliable and efficient manpower solutions.') }}</p>
         </div>
-
         <div class="grid grid-cols-2 md:grid-cols-5 gap-x-6">
             <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/specoiii.png') }}" alt="specoiii logo" />
             <img class="py-3 lg:py-5 w-24 h-auto md:w-20 lg:w-32 mx-auto" src="{{ asset('images/logos/nbhi.png') }}" alt="nbhi logo" />
