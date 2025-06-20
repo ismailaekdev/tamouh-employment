@@ -84,7 +84,7 @@
 <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
   <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
     <div>
-      <img class="rounded-xl" src="{{ asset('images/civil-manpower-supply-onshore-offshore.jpg') }}" alt="Features Image">
+      <img class="rounded-xl" src="{{ asset('images/services-1.jpg') }}" alt="{{ __('UAE manpower supply') }}">
     </div>
     <div class="mt-5 sm:mt-10 lg:mt-0">
       <div class="space-y-6 sm:space-y-8">
