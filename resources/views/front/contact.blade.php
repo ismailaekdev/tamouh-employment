@@ -65,8 +65,8 @@
                                     {{ __('Email us') }}
                                 </p>
                                 <p>
-                                    <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="mailto:info.tamouhemploymentuae9.ae">
-                                        info.tamouhemploymentuae9.ae
+                                    <a class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="mailto:info@tamouhemploymentuae9.ae">
+                                        info@tamouhemploymentuae9.ae
                                     </a>
                                 </p>
                                 <p>
