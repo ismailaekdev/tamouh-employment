@@ -180,6 +180,7 @@
         </div>
     </section>
 
+
     <section class="bg-white">
         <div class="py-4 px-4 mx-auto max-w-screen-xl text-center sm:py-8 lg:px-6">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
@@ -229,7 +230,103 @@
             </p>
         </div>
     </section>
+    <div class="py-4 px-4 mx-auto max-w-screen-xl text-center sm:py-8 lg:px-6">
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
+                {{ __('Building Success Stories') }}
+            </h2>
+            <p class="text-gray-500 sm:text-xl lg:px-48">
+                {{ __('Explore how Tamouh Employment empowers businesses and professionals across the UAE.') }}
+            </p>
 
+</div>
+
+<!-- Masonry Cards -->
+<div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+  <!-- Grid -->
+  <div class="grid sm:grid-cols-12 gap-6">
+    <div class="sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-hidden" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://images.unsplash.com/photo-1606868306217-dbf5046868d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Resilient Workforces
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-hidden" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Championing Diversity
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-span-12 md:col-span-4">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-hidden" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://images.unsplash.com/photo-1606836576983-8b458e75221d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Community Pride
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-span-12 sm:col-span-6 md:col-span-4">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-hidden" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://images.unsplash.com/photo-1598929438701-ef29ab0bb61a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Smart Operations
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+
+    <div class="col-span-12 sm:col-span-6 md:col-span-4">
+      <!-- Card -->
+      <a class="group relative block rounded-xl overflow-hidden focus:outline-hidden" href="#">
+        <div class="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+          <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover" src="https://images.unsplash.com/photo-1467043153537-a4fba2cd39ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80" alt="Masonry Cards Image">
+        </div>
+        <div class="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+          <div class="text-sm font-semibold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
+            Empowered Leadership
+          </div>
+        </div>
+      </a>
+      <!-- End Card -->
+    </div>
+    <!-- End Col -->
+  </div>
+  <!-- End Grid -->
+</div>
+<!-- End Masonry Cards -->
     <section class="bg-white">
         <div class="py-4 px-4 mx-auto max-w-screen-xl text-center lg:py-8 lg:px-6">
             <div class="mx-auto max-w-screen-sm">
@@ -249,7 +346,10 @@
                     <div class="flex items-center gap-x-4 mt-6 justify-center md:justify-end">
                         {{-- <img class="size-10 rounded-full shadow-lg border-gray-300 border" src="{{ asset('images/ceo.jpg') }}" alt="{{ __('Engr. Mohamed El Bahrawy') }}"> --}}
                         <p class="md:text-lg">
-                            <span class="font-semibold text-primary-400">{{ __('Engr. Mohamed El Bahrawy') }},</span> <span class="text-neutral-500">{{ __('CEO') }}</span>
+                            <span class="font-semibold text-primary-400">{{ __('Engr. Mohamed El Bahrawy') }},</span> <span class="text-neutral-500">{{ __('CEO GMAIL:') }}</span>
+                        </p>
+                        <p class="md:text-lg">
+                            <span class="text-gray-500 text-sm md:text-xl md:leading-normal text-justify rtl:md:text-right md:text-left mb-4">{{ __('CEO@tamouhemploymentuae9.ae') }}</span>
                         </p>
                     </div>
                 </blockquote>
