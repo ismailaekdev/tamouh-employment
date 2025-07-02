@@ -22,7 +22,7 @@
                 <img class="group-hover:scale-105 group-focus:scale-105 transition-transform duration-500 ease-in-out object-cover rounded-2xl" src="{{ asset('images/contact.jpg') }}" alt="{{ __('Contact Tamouh Employment') }}">
             </div>
 
-            <div class="space-y-8 lg:space-y-16">
+            <div class="space-y-4 lg:space-y-8">
                 <div>
                     <h3 class="mb-5 font-semibold text-black">
                         {{ __('Our address') }}
@@ -89,6 +89,34 @@
                                 <p>
                                     <a dir="ltr" class="relative inline-block font-medium text-black before:absolute before:bottom-0.5 before:start-0 before:-z-1 before:w-full before:h-1 before:bg-green-400 hover:before:bg-red-400 focus:outline-hidden focus:before:bg-red-400" href="tel:++97126331559">
                                         +971 2 6331 559
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-4">
+                            <svg class="shrink-0 size-5 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z"></path>
+                                <path d="m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10"></path>
+                            </svg>
+
+                            <div class="grow">
+                                <p class="text-sm text-gray-600">
+                                    {{ __('Sales and Operations') }}
+                                </p>
+                                <p>
+                                    <a class="relative inline-block font-medium text-black" href="mailto:ceo@tamouhemploymentuae9.ae">
+                                        ceo@tamouhemploymentuae9.ae
+                                    </a>
+                                </p>
+                                <p>
+                                    <a class="relative inline-block font-medium text-black" href="mailto:sales@tamouhemploymentuae9.ae">
+                                        sales@tamouhemploymentuae9.ae
+                                    </a>
+                                </p>
+                                <p>
+                                    <a class="relative inline-block font-medium text-black" href="mailto:oper@tamouhemploymentuae9.ae">
+                                        oper@tamouhemploymentuae9.ae
                                     </a>
                                 </p>
                             </div>
