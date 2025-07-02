@@ -261,7 +261,7 @@
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('Certified for Excellence') }}</h2>
             <p class="text-gray-500 sm:text-xl">{{ __('Tamouh Employment is ISO-certified, reflecting our commitment to quality and reliability in manpower services across the UAE.') }}</p>
         </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
             <div class="h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
                 <div class="flex flex-col justify-center items-center overflow-hidden rounded-t-xl">
                     <img class="w-full h-[300px] md:h-[400px] lg:h-[500px] object-contain" src="{{ asset('images/ISO-9001-2015.jpg') }}" alt="">
