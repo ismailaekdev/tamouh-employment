@@ -14,7 +14,7 @@
                 </div>
                 <div class="flex justify-center gap-4">
                     <div class="text-center">
-                        <a class="inline-flex justify-center items-center gap-x-2 text-center bg-primary-600 hover:bg-primary-700 shadow-lg shadow-transparent border border-transparent text-white text-sm font-medium rounded-full focus:outline-hidden py-3 px-6" href="#">
+                        <a class="inline-flex justify-center items-center gap-x-2 text-center bg-primary-700 hover:bg-primary-800 shadow-lg shadow-transparent border border-transparent text-white text-sm font-medium rounded-full focus:outline-hidden py-3 px-6" href="#">
                             {{ __('Get Started') }}
                             <svg class="shrink-0 size-4 rtl:rotate-180" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="m9 18 6-6-6-6" />
@@ -29,7 +29,7 @@
         </div>
     </div>
 
-    <section class="bg-white ">
+    <section>
         <div class="py-4 px-4 mx-auto max-w-screen-xl text-center sm:py-8 lg:px-6">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('What We Deliver') }}</h2>
             <p class="text-gray-500 sm:text-xl">{{ __('Smart staffing solutions tailored to your industry needs.') }}</p>
@@ -60,7 +60,7 @@
         </div>
     </section>
 
-    <section class="bg-white ">
+    <section>
         <div class="gap-16 items-center py-4 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-8 lg:px-6">
             <div class="font-light text-gray-500 sm:text-lg">
                 <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('About Us') }}</h2>
@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section class="bg-white">
+    <section>
         <div class="max-w-5xl px-4 xl:px-0 py-4 lg:pt-8 lg:py-8 mx-auto">
             <div class="mb-4 lg:mb-8">
                 <h2 class=" font-semibold text-2xl md:text-4xl md:leading-tight">{{ __('Connecting Ambition with Opportunity') }}</h2>
@@ -94,7 +94,7 @@
 
                 <div>
                     <div class="mb-4">
-                        <h3 class="text-primary-600 text-xs font-medium uppercase">
+                        <h3 class="text-primary-700 text-xs font-medium uppercase">
                             {{ __('How We Work') }}
                         </h3>
                     </div>
@@ -167,7 +167,7 @@
                         </div>
                     </div>
 
-                    <a class="text-white group inline-flex items-center gap-x-2 py-2 px-3 bg-primary-600 font-medium text-sm rounded-full focus:outline-hidden" href="tel:+97124433622">
+                    <a class="text-white group inline-flex items-center gap-x-2 py-2 px-3 bg-primary-700 font-medium text-sm rounded-full focus:outline-hidden" href="tel:+97124433622">
                         <svg class="shrink-0 size-4 rtl:-rotate-90" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                             <path class="opacity-0 group-hover:opacity-100 group-focus:opacity-100 group-hover:delay-100 transition" d="M14.05 2a9 9 0 0 1 8 7.94"></path>
@@ -220,7 +220,7 @@
                 </div>
             </div>
             <p class="text-center">
-                <a href="" class="inline-flex items-center font-medium text-primary-600 hover:text-primary-700">
+                <a href="" class="inline-flex items-center font-medium text-primary-700 hover:text-primary-800">
                     {{ __('Explore our Services') }}
                     <svg class="ml-1 w-5 h-5 rtl:rotate-180" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
@@ -249,7 +249,7 @@
                     <div class="flex items-center gap-x-4 mt-6 justify-center md:justify-end">
                         {{-- <img class="size-10 rounded-full shadow-lg border-gray-300 border" src="{{ asset('images/ceo.jpg') }}" alt="{{ __('Engr. Mohamed El Bahrawy') }}"> --}}
                         <p class="md:text-lg">
-                            <span class="font-semibold text-primary-400">{{ __('Engr. Mohamed El Bahrawy') }},</span> <span class="text-neutral-500">{{ __('CEO') }}</span>
+                            <span class="font-semibold text-primary-800">{{ __('Engr. Mohamed El Bahrawy') }},</span> <span class="text-neutral-500">{{ __('CEO') }}</span>
                         </p>
                     </div>
                 </blockquote>
@@ -261,7 +261,7 @@
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">{{ __('Certified for Excellence') }}</h2>
             <p class="text-gray-500 sm:text-xl">{{ __('Tamouh Employment is ISO-certified, reflecting our commitment to quality and reliability in manpower services across the UAE.') }}</p>
         </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
                 <div class="flex flex-col justify-center items-center overflow-hidden rounded-t-xl">
                     <img class="w-full h-[300px] md:h-[400px] lg:h-[500px] object-contain" src="{{ asset('images/ISO-9001-2015.jpg') }}" alt="">
@@ -290,6 +290,17 @@
                 </div>
                 <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
                     <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="{{ asset('pdf/ISO-45001-2018.pdf') }}" download>
+                        {{ __('Download') }}
+                    </a>
+                </div>
+            </div>
+
+            <div class="h-full bg-white border border-gray-200 shadow-2xs rounded-xl">
+                <div class="flex flex-col justify-center items-center overflow-hidden rounded-t-xl">
+                    <img class="w-full h-[300px] md:h-[400px] lg:h-[500px] object-contain" src="{{ asset('images/ICV-Certificate.jpg') }}" alt="">
+                </div>
+                <div class="mt-auto flex border-t border-gray-200 divide-x divide-gray-200">
+                    <a class="w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-ee-xl bg-white text-gray-800 shadow-2xs hover:bg-gray-50 focus:outline-hidden focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" href="{{ asset('pdf/ICV-Certificate.pdf') }}" download>
                         {{ __('Download') }}
                     </a>
                 </div>
