@@ -190,7 +190,7 @@
             </p>
             <div class="mt-8 lg:mt-16 mb-8 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
                 <div>
-                    <div class="inline-flex justify-center items-center mb-6 rounded-lg overflow-hidden w-full md:w-1/2">
+                    <div class="inline-flex justify-center items-center mb-6 rounded-lg overflow-hidden w-full">
                         <img src="{{ asset('images/services-6.jpg') }}" class="w-full" alt="{{ __('Trusted Workforce Network') }}">
                     </div>
                     <h3 class="mb-4 text-2xl font-bold ">
@@ -201,7 +201,7 @@
                     </p>
                 </div>
                 <div>
-                    <div class="inline-flex justify-center items-center mb-6 rounded-lg overflow-hidden w-full md:w-1/2">
+                    <div class="inline-flex justify-center items-center mb-6 rounded-lg overflow-hidden w-full">
                         <img src="{{ asset('images/services-7.jpg') }}" class="w-full" alt="{{ __('Complete Staffing Solutions') }}">
                     </div>
                     <h3 class="mb-4 text-2xl font-bold">
