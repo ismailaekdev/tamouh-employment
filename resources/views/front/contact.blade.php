@@ -110,8 +110,8 @@
                                     </a>
                                 </p>
                                 <p>
-                                    <a class="relative inline-block font-medium text-black" href="mailto:sales@tamouhemploymentuae9.ae">
-                                        sales@tamouhemploymentuae9.ae
+                                    <a class="relative inline-block font-medium text-black" href="mailto:marketing@tamouhemploymentuae9.ae">
+                                        marketing@tamouhemploymentuae9.ae
                                     </a>
                                 </p>
                                 <p>
