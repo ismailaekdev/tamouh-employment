@@ -18,9 +18,9 @@
         </div>
         <hr class="my-6 border-gray-200 sm:mx-auto">
         <div class="sm:items-center sm:justify-between sm:flex">
-            <span class="block text-sm text-gray-500">© 2025 <a href="{{ route('front.home') }}" class="hover:underline">{{ __('Tamouh Employment LLC') }}</a>. {{ __('All Rights Reserved.') }}</span>
+            <span class="block text-sm text-gray-500">© {{ now()->year }} <a href="{{ route('front.home') }}" class="hover:underline">{{ __('Tamouh Employment LLC') }}</a>. {{ __('All Rights Reserved.') }}</span>
             <div class="flex justify-center mt-4 space-x-6 sm:mt-0">
-                <a href="#" class="text-gray-500 hover:text-gray-900">
+                {{-- <a href="#" class="text-gray-500 hover:text-gray-900">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
                     </svg>
@@ -36,8 +36,7 @@
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M13.795 10.533 20.68 2h-3.073l-5.255 6.517L7.69 2H1l7.806 10.91L1.47 22h3.074l5.705-7.07L15.31 22H22l-8.205-11.467Zm-2.38 2.95L9.97 11.464 4.36 3.627h2.31l4.528 6.317 1.443 2.02 6.018 8.409h-2.31l-4.934-6.89Z" />
                     </svg>
-
-                </a>
+                </a> --}}
                 <a href="https://www.linkedin.com/company/tamouh/" target="_blank" class="text-gray-500 hover:text-gray-900">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
                         <path fill-rule="evenodd" d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z" clip-rule="evenodd" />

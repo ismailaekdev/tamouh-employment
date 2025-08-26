@@ -213,7 +213,7 @@
                 </div>
             </div>
             <p class="text-center">
-                <a href="" class="inline-flex items-center font-medium text-primary-700 hover:text-primary-800">
+                <a href="href="{{ route('front.services') }}"" class="inline-flex items-center font-medium text-primary-700 hover:text-primary-800">
                     {{ __('Explore our Services') }}
                     <svg class="ml-1 w-5 h-5 rtl:rotate-180" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path>
